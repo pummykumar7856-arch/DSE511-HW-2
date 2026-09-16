@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+# Obsolete export from the original notebook; the final dataset lives in data/.
+notebooks/cleaned_life_expectancy_2020.csv
