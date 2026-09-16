@@ -1,6 +1,5 @@
 # Life Expectancy in 2020
 
-<<<<<<< HEAD
 A short EDA for DSE 511 Homework 2, comparing life expectancy across countries and territories in 2020.
 
 ## Dataset
@@ -50,12 +49,10 @@ Countries and territories receive equal weight, so this mean is not population-w
 
 ## Contributions
 
-- **Pummy Kumar** (`pummykumar7856-arch`): initial notebook, visualization updates, and README; merged through PRs #1 and #2 from the `pummy` branch.
-- **Second partner:** add name and actual contributions before submission.
+- **Pummy Kumar** (`pummykumar7856-arch`): created the repository and initial README; added the OWID download, 2020 subset, missing-value and duplicate checks, descriptive statistics, and top-ten plots. Later added a US life expectancy plot for 2015–2023 and updated the README. These changes were merged through PRs #1 and #2 from the `pummy` branch.
+- **Kevin Li** (`pricyspark`): fixed the CSV download's HTTP 403 error; improved filtering to remove regional and income-group aggregates while retaining Kosovo; saved source and cleaned CSVs in `data/`; displayed the summary statistics together; added a histogram, concise notebook sections, and findings. Expanded the README with the source citation, variable descriptions, cleaning steps, and run instructions; added dependencies and `.gitignore`. Created the merge-conflict resolution commit `18f4054` and merged the work through PR #3 from `finish-eda`.
 
-The completed cleaning, EDA, and documentation were revised with Codex assistance. The team is handling the remaining Git collaboration requirements and merge-conflict resolution.
-=======
+The final documentation and merge conflicts were inspected with Codex and verified manually.
 The Jupyter Notebook notebooks/DSE-511-ASSIGNMENT-2.ipynb contains the code created to explore the life expectancy dataset.
 The notebook opens the life expectancy dataset, produces statistical summaries, and subsets the data to provide a visualization of the top 10 countries with the highest life expectancy in the year 2020.
 Added code to produce a time series plot of life expectancy for the USA.
->>>>>>> origin/main
